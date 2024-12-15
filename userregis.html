@@ -23,63 +23,65 @@
 <div>
 <form>
 <div>    
-<label>Name</label>
-<div>
-<input type="text" placeholder="Your Full Name" name="name"><br>
+<label for="name">Name
+<input type="text" id="name" class="styletextbox" placeholder="Your Full Name" name="name">
+</label>
 </div>
+<br>
+<div>
+<label for="display">Display Name  <img src="https://alpha.chittorgarh.com/images/question_active.gif"><input type="text" id="display" class="displayname" placeholder="Your Display Name" name="displayname"><p>Note: Restricted Display Name<br>(Admin,Chittor,Chittorgarh)</p></label>
 </div>
+<br>
 <div>
-<label>Display Name  <img src="https://alpha.chittorgarh.com/images/question_active.gif"></label>
-<div>
-<input type="text" placeholder="Your Display Name" name="displayname"><p>Note: Restricted Display Name<br>(Admin,Chittor,Chittorgarh)</p><br>
+<label for="phone">Phone
+<input type="number" id="phone" class="styletextbox" placeholder="Your Phone Number" name="phone"></label>
 </div>
+<br>
+<div>
+<label for="email">Email
+<input type="email" id="email" class="styletextbox" placeholder="Your Email Address" name="email"><p>Note: Your <strong>password</strong> will be send to this<br> email address.</p></label>
 </div>
+<br>
 <div>
-<label>Phone</label>
-<div>
-<input type="number" placeholder="Your Phone Number" name="phone"><br>
+<label for="city">City
+<input type="text" id="city" class="styletextbox" placeholder="Your City Name" name="city"></label>
 </div>
-</div>
+<br>
 <div>
-<label>Email</label>
-<div>
-<input type="email" placeholder="Your Email Address" name="email"><p>Note: Your <strong>password</strong> will be send to this<br> email address.</p><br>
-</div>
-</div>
-<div>
-<label>City</label>
-<div>
-<input type="text" placeholder="Your City Name" name="city"><br>
-</div>
-</div>
-<div>
-<label>State</label>
-<div>
-<select>
+<label for="state">State
+<select id="state" class="styletextbox">
     <option value="">Select State</option>
     <option value="1">Andaman and Nicobar Islands</option>
     <option value="2">Andhra Pradesh</option>
     <option value="3">Arunachal Pradesh</option>
-</select>
+</select></label>
 </div>
-</div>
+<br>
 <div>
-<p>Verify Code
-<img src="https://alpha.chittorgarh.com/plugins/CAP_image.asp"><a href="captcha.com">Load New Code</a></p><br>
+<label for="verify">Verify Code
+<img src="https://alpha.chittorgarh.com/plugins/CAP_image.asp" id="verify" ><a href="#">Load New Code</a></label>
 </div>
-<label>Code</label>
-<input type="text" placeholder="Enter Verify Code" name="code"><br>
-<input type="checkbox" name="check"><a href="terms.com">I have read and agree to the Terms & Conditions</a><br>
+<br>
 <div>
-    <p>100% privacy - we will never spam you!</p>
+<label for="code">Code
+<input type="text" id="code" class="styletextbox" placeholder="Enter Verify Code" name="code">
+</label>
 </div>
-<input type="submit" name="register" value="Register">
-<input type="reset" name="close" value="Close"> 
+<br>
+<input type="checkbox" name="check"><a href="terms.com">I have read and agree to the Terms & Conditions</a><br><div>
+<br>
+<span class="privacy">100% privacy - we will never spam you!</span>
+</div>
+<br>
+<div class="buttonalign">
+<input type="submit" id="register" name="register" value="Register">
+<input type="reset" id="close" name="close" value="Close"> 
+</div>
 </form>
 </div>
-<footer>
+<div class="footer">
     <p><strong>Trouble submitting form? </strong> <a href="contacts.com">Contact Us</a> today or email at <strong>support@chittorgarh.com</strong><br>
 <a href="rules.com">Disclaimer and Privacy Statement | Rules for posting message</a></p>
-</footer>
+</div>
 </body>
 </html> 
